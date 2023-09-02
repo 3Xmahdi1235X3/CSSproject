@@ -1,0 +1,301 @@
+  * {
+    margin: 0;
+    padding: 0;	
+  }
+  body {
+    background: #081b29;
+    color: #ededed;
+
+
+  }
+.header{
+  position: fixed;
+  top:0; 
+  left:0;
+  width: 100%;
+  background-color: transparent;
+  display: inline-block;
+  z-index: 100;
+
+}
+  .logo {
+    float: left;
+    padding: 36px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    color: #ededed;
+    font-weight: 600;
+  }
+  
+  
+  .navbar-sections {
+    float: right;
+    list-style-type: none;
+    margin-right: 50px;
+  }
+  
+  
+  .navbar-sections li {
+    float: left;
+    padding: 36px;
+  }
+  
+  
+  .navbar-sections li a {
+    color: #ededed;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+  }
+.navbar-sections li a:hover{
+    color: #00abf0;
+    
+  }
+.navbar-sections li a:active{
+    color: #00abf0;
+    
+  }
+ .home {
+    height: 100vh;
+    position: relative;
+    background: url("me.png") no-repeat;
+    background-size: cover;
+        background-position: 260px 38px;
+}
+
+.home-content {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 80%;
+}
+.home-content h1{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2
+}
+.home-content h3{
+  font-size: 38px;
+  font-weight: 700;
+  color:#00abf0;
+  margin: 15px 0 15px 0 ;
+}
+.home-content .button-box{
+  width: 345px;
+  height: 50px;
+}
+.home-content .button-box a{
+  width: 150px;
+  height: 100%;
+  background-color:#00abf0;
+  border: 2px solid #00abf0 ; 
+  border-radius: 8px;
+  display: block;
+  text-align: center;
+  font-size: 19px;
+  color:#ededed;
+  text-decoration: none; 
+  font-weight: 600;
+  line-height: 50px
+
+}
+.about{
+  height: 100vh;
+    position: relative;
+    overflow:hidden;
+
+}
+.about-content{
+   position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 100%;
+    text-align: left;
+      overflow-x: none;
+
+}
+
+.about-content h1{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom:80px;
+  position: relative;
+  left: 35%;
+  width: fit-content;
+}
+
+.about-content table{
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+.about-content table th{
+  font-size: 24px;
+  padding: 20px  
+}
+.about-content table td{
+  font-size: 24px;
+  padding: 20px  ;
+  color:#00abf0;
+}
+.about-content table td {
+  font-size: 24px;
+  padding: 20px  ;
+  color:#00abf0;
+}
+.about-content table td .button-box{
+  width: 345px;
+  height: 50px;
+}
+.about-content table td .button-box a{
+  width: 150px;
+  height: 100%;
+  background-color:#00abf0;
+  border: 2px solid #00abf0 ; 
+  border-radius: 8px;
+  display: block;
+  text-align: center;
+  font-size: 19px;
+  color:#ededed;
+  text-decoration: none; 
+  font-weight: 600;
+  line-height: 50px
+
+}
+.skills{
+  height: 100vh;
+    position: relative;
+    overflow:hidden;
+
+}
+
+.skills-content{
+   position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 100%;
+    text-align: left;
+      overflow-x: none;
+
+
+}
+
+.skills-content h1{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom:50px;
+  position: relative;
+  left: 35%;
+  width: fit-content;
+}
+.progress-box {
+  padding: 50px;
+   position: relative;
+  left: 25%;
+}
+progress {
+  border-radius: 1px; 
+  width: 500px;
+  height: 50px;
+
+}
+.progress-skill {
+    margin-bottom: 20px;
+}
+.progress-skill h2{
+        margin-bottom: 10px;
+
+}
+progress::-webkit-progress-bar {
+  background-color: #081b29;
+  border-radius: 1px;
+  border: 1px solid #00abf0;
+}
+progress::-webkit-progress-value {
+  background-color: #00abf0;
+}
+.contact{
+  height: 100vh;
+    position: relative;
+    overflow:hidden;
+
+}
+
+.contact-content{
+   position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 100%;
+    text-align: left;
+      overflow-x: none;
+
+}
+
+.contact-content h1{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom:50px;
+  position: relative;
+  left: 35%;
+  width: fit-content;
+}
+.contact-form {
+  width: 40%;
+  position: relative;
+  left: 25%;
+}
+.contact-form input{
+  height: 52px ;
+    background: #fff ;
+    color: #000000 ;
+    font-size: 18px;
+    border-radius: 5px;
+    display: block;
+    width: 80%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    margin-bottom: 10px;
+   
+}
+.contact-form textarea{
+   color: #000000 ;
+    font-size: 18px;
+    border-radius: 5px;
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+        margin-bottom: 10px;
+
+}
+.contact-form button{
+  width: 150px;
+  height: 100%;
+  background-color:#00abf0;
+  border: 2px solid #00abf0 ; 
+  border-radius: 8px;
+  display: block;
+  text-align: center;
+  font-size: 19px;
+  color:#ededed;
+  text-decoration: none; 
+  font-weight: 600;
+  line-height: 50px
+
+}
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
